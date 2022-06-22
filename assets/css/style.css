@@ -1,0 +1,147 @@
+body{
+    background: var(--color-light-black);
+    color: var(--color-white);
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+/*--- Barra de navegacion en el header ---*/
+.header{
+    padding-top: 10px;
+}
+
+.container{
+    width: 94%;
+    margin: 0 3%;
+    display: flex;
+    
+}
+.container a{
+    text-decoration: none;
+	color: inherit;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__titulo{
+    font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+}
+.menu__link{
+    padding: 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+}
+
+/*--- Area de presentacion ---*/
+.presentacion__container{
+    padding: 3rem 3%;
+    display: flex;
+
+}
+.presentacion{
+    width: 67%;
+}
+.presentacion__titulo{
+    font-size: 2rem;
+}
+.presentacion__descripcion{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.presentacion__redes-sociales{
+    color: var(--color-dark-blue);
+}
+.redes-sociales__item{
+    text-decoration: none;
+	color: inherit;
+    padding-left: 1rem;
+}
+
+.presentacion__imagen{
+    display: flex;
+    background-image: url(../img/foto.png);
+    background-position: center;
+    background-size: contain;
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+
+}
+
+/*--- Area - sobre mi ---*/
+.sobre-mi{
+    background-color: var(--color-light-black2);
+    padding: 30px 3%;
+    display: block;
+}
+
+.sobre-mi__titulo{
+    color: var(--color-light-blue1);
+    font-size: 2rem;
+}
+
+.sobre-mi__contenido{
+    width: 67%;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    
+}
+
+/*--- Area de skills y hobbies ---*/
+.skills, .hobbies{
+    display: block;
+    color: var(--color-dark-blue);
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+}
+.container__skills, .container__hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 94%;
+    padding: 0 3%;
+}
+
+.skill, .hobbie{
+    background-color: var(--color-light-black2);
+    width: 15%;
+    margin-right: 20px;
+    margin-bottom: 2rem;
+    
+    transition: .3s;
+    box-shadow: 2px 2px 2px var(--color-light-blue2);
+    position: relative;
+}
+
+
+.skill__imagen, .hobbie__imagen{
+    width: 60%;
+    padding: 20% 20%;
+
+}
+.skill__titulo, .hobbie__titulo{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+
+
