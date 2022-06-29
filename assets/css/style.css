@@ -1,34 +1,33 @@
+
+/*--Estilos generales--*/
 body{
     background: var(--color-light-black);
     color: var(--color-white);
     font-family: 'Open Sans',Arial,sans-serif;
+    line-height: 1.5rem;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
 }
 
 /*--- Barra de navegacion en el header ---*/
 .header{
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
 .container{
-    width: 94%;
-    margin: 0 3%;
-    display: flex;
-    
-}
-.container a{
-    text-decoration: none;
-	color: inherit;
-}
-
-.header .container{
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
+    margin: 0 7.5%;
+    width: 85%; 
 }
 
 .header__titulo{
+    font-size: 2em;
     font-weight: bold;
-	font-size: 2em;
 	margin-bottom: 10px;
 }
 
@@ -36,41 +35,34 @@ body{
     display: flex;
 }
 
-.menu a{
-    text-decoration: none;
-}
 .menu__link{
+    display: block;
+    margin-bottom: 10px;
     padding: 10px;
-	margin-bottom: 10px;
-	text-decoration: none;
-	transition: .5s;
-	display: block;
 }
 
 /*--- Area de presentacion ---*/
-.presentacion__container{
-    padding: 3rem 3%;
-    display: flex;
 
-}
 .presentacion{
     width: 67%;
 }
-.presentacion__titulo{
+
+.titulo-principal{
     font-size: 2rem;
+    line-height: 2rem;
 }
-.presentacion__descripcion{
-    padding: 1rem 0;
+
+.parrafo__contenido{
     font-size: 1.2rem;
-    font-weight: 100;
+    padding: 1rem 0;
 }
+
 .presentacion__redes-sociales{
     color: var(--color-dark-blue);
 }
-.redes-sociales__item{
-    text-decoration: none;
-	color: inherit;
-    padding-left: 1rem;
+
+.redes-sociales__link{
+    padding-right: 1rem;
 }
 
 .presentacion__imagen{
@@ -88,56 +80,47 @@ body{
 /*--- Area - sobre mi ---*/
 .sobre-mi{
     background-color: var(--color-light-black2);
-    padding: 30px 3%;
-    display: block;
+    padding: 2rem 0;
 }
 
-.sobre-mi__titulo{
-    color: var(--color-light-blue1);
-    font-size: 2rem;
+.sobre-mi__container{
+    display: block;
 }
 
 .sobre-mi__contenido{
     width: 67%;
-    padding-top: 20px;
-    font-size: 1.2rem;
-    
 }
 
 /*--- Area de skills y hobbies ---*/
-.skills, .hobbies{
+.titulo-principal__azul{
     display: block;
     color: var(--color-dark-blue);
-    padding: 2rem 0;
+    padding: 3.5rem 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
-.container__skills, .container__hobbies{
-    display: flex;
+.container__tarjeta{
     flex-wrap: wrap;
-    justify-content: center;
-    width: 94%;
-    padding: 0 3%;
+    justify-content: start;
 }
 
-.skill, .hobbie{
-    background-color: var(--color-light-black2);
-    width: 15%;
-    margin-right: 20px;
-    margin-bottom: 2rem;
-    
-    transition: .3s;
+.tarjeta{
+    display: block;
     box-shadow: 2px 2px 2px var(--color-light-blue2);
-    position: relative;
+    background-color: var(--color-light-black2);
+    width: calc(20% - 1.5rem);
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 
-.skill__imagen, .hobbie__imagen{
+
+.tarjeta__imagen{
     width: 60%;
     padding: 20% 20%;
 
 }
-.skill__titulo, .hobbie__titulo{
+.tarjeta__titulo{
     margin-left: 1rem;
     margin-bottom: 1rem;
     font-size: 1.1rem;
