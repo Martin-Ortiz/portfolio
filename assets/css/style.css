@@ -113,8 +113,6 @@ a{
     margin-bottom: 1.5rem;
 }
 
-
-
 .tarjeta__imagen{
     width: 60%;
     padding: 20% 20%;
@@ -123,8 +121,42 @@ a{
 .tarjeta__titulo{
     margin-left: 1rem;
     margin-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
+/*---Area de Educacion---*/
+.tarjeta__educacion{
+    width: calc(33.33% - 1.5rem);
+    height: 350px;
+    background: var(--color-light-black);
+}
+.contenedor__imagenes{
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor__one{
+    width: 100%;
+    height: 175px;
+}
+.one__imagen1{
+    width: 80%;
+    height: 70px;
+    margin: 0 10%;
+}
+.one__imagen2{
+    width: 56%;
+    height: 100px;
+    margin: 0 22%;
+}
+.imagen__telefonica{
+    height: 50px;
+    margin-top: 35.25px;
+}
 
-
+.educacion__certificados{
+  margin-left: 1rem; 
+  margin: 1.5rem 1rem;
+  height: 96px;
+}
