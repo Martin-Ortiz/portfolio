@@ -21,11 +21,11 @@
             </h1>
 
             <nav class="menu">
-                <a href="#" class="menu__link ">Sobre mi</a>
-                <a href="#" class="menu__link ">Skills</a>
-                <a href="#" class="menu__link ">Hobbies</a>
-                <a href="#" class="menu__link ">Formación</a>
-                <a href="#" class="menu__link ">Proyectos</a>
+                <a href="#sobre-mi" class="menu__link ">Sobre mi</a>
+                <a href="#skills" class="menu__link ">Skills</a>
+                <a href="#hobbies" class="menu__link ">Hobbies</a>
+                <a href="#formacion" class="menu__link ">Formación</a>
+                <a href="#proyectos" class="menu__link ">Proyectos</a>
                 <a href="#" class="menu__link ">leo.martin178@gmail.com</a>
             </nav>
 
@@ -54,7 +54,7 @@
             <div class="presentacion__imagen"></div>
         </section>
 
-        <section class="sobre-mi">
+        <section class="sobre-mi" id="sobre-mi">
             <section class="container sobre-mi__container">
                 <h2 class="titulo-principal">Sobre mi</h2>
                 <p class="parrafo__contenido sobre-mi__contenido">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -70,7 +70,7 @@
 
         </section>
 
-        <section>
+        <section id="skills">
             <div>
                 <h2 class="titulo-principal__azul">Skills</h2>
             </div>
@@ -114,7 +114,7 @@
 
         </section>
 
-        <section>
+        <section id="hobbies">
             <div>
                 <h2 class="titulo-principal__azul">Hobbies</h2>
             </div>
@@ -140,17 +140,21 @@
                     <img class="tarjeta__imagen" src="./assets/img/hobbies/senderismo.png" alt="">
                     <h2 class="tarjeta__titulo">Senderismo</h2>
                 </div>
+                <div class="tarjeta">
+                    <img class="tarjeta__imagen" src="./assets/img/hobbies/ejercitarce.png" alt="">
+                    <h2 class="tarjeta__titulo">Ejercicio</h2>
+                </div>
             </section>
 
         </section>
 
-        <section class="sobre-mi">
+        <section id="formacion" class="sobre-mi">
             <div>
-                <h2 class="titulo-principal__azul">Educación</h2>
+                <h2 class="titulo-principal__azul">Formación</h2>
             </div>
 
             <section class="container container__tarjeta">
-                
+
                 <div class="tarjeta tarjeta__educacion">
                     <div class="contenedor__one">
                         <img class="one__imagen1" src="./assets/img/educacion/oracle.png" alt="">
@@ -173,7 +177,7 @@
                     <div class="educacion__certificados">
                         <a href="#">Ing. en Sistemas Computacionales</a><br>
                     </div>
-                    <h2 class="tarjeta__titulo">2021 | CESFV</h2>
+                    <h2 class="tarjeta__titulo">enero 2021 | CESFV</h2>
                 </div>
 
                 <div class="tarjeta tarjeta__educacion">
@@ -184,10 +188,41 @@
                     <div class="educacion__certificados">
                         <a href="#">Metodologias Agiles</a><br>
                     </div>
-                    <h2 class="tarjeta__titulo">2022 | Fundación Telefónica</h2>
+                    <h2 class="tarjeta__titulo">junio 2022 | Telefónica</h2>
                 </div>
 
             </section>
+
+        </section>
+
+        <section id="proyectos">
+            <h2 class="titulo-principal__azul">Experiencia profesional</h2>
+
+            <div class="container c__p">
+                <img class="experiencia__imagen" src="./assets/img/experiencia/encriptador.png" alt="Imagen de la pagina enciptador de texto">
+
+                <div class="experiencia__descripcion">
+                    <h3 class="experiencia__titulo">Encriptador de texto</h3>
+                    <p class="descripcion__proyecto">Creado con JavaScript, HTML Y CSS (Sólo acepta letras minúsculas y sin acentos)</p>
+                    <div class="botones">
+                        <button class="boton__proyecto">Repositório</button>
+                        <button class="boton__proyecto">Ver demo</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container c__p">
+                <div class="experiencia__descripcion">
+                    <h3 class="experiencia__titulo">Juego del ahorcado</h3>
+                    <p class="descripcion__proyecto">Clasico juego del ahorcado. Creado con JavaScript, JSON, HTML Y CSS</p>
+                    <div class="botones">
+                        <button class="boton__proyecto">Repositório</button>
+                        <button class="boton__proyecto">Ver demo</button>
+                    </div>
+                </div>
+
+                <img class="experiencia__imagen" src="./assets/img/experiencia/ahorcado.png" alt="Imagen de la pagina enciptador de texto">
+            </div>
 
         </section>
 
