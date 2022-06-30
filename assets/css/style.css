@@ -46,9 +46,7 @@ a{
 .presentacion{
     width: 67%;
 }
-.c__p{
-    margin-bottom: 2rem;
-}
+
 .titulo-principal{
     font-size: 2rem;
     line-height: 2rem;
@@ -171,6 +169,10 @@ a{
 }
 
 /*---Area Experiencia Profesional---*/
+.c__p{
+    margin-bottom: 2rem;
+}
+
 .experiencia__imagen{
     width: 60%;
 }
@@ -217,4 +219,47 @@ a{
   
   .boton__proyecto:active {
     transform: translateY(-1px);
+  }
+
+  /*---Area de contacto---*/
+  .imagen__contacto{
+    width: 38%;
+  }
+
+  .formulario__contacto{
+    width: 58%;
+  }
+  .titulo__formulario{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .descripcion__formulario{
+    margin-bottom: 1rem;
+  }
+
+  .elemento__formulario{
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: var(--color-light-black2);
+  }
+
+  .input__formulario{
+    width: 99%;
+    background: transparent;
+    border: none;
+    color: var(--color-white);
+    font-size: 1rem;
+    border-bottom: 3px solid var(--color-darkGreen);
+  }
+  .input__formulario::placeholder{
+    border: none;
+    color: var(--color-white);
+    font-size: 1rem;
+    background: transparent;
+  }
+  .input__formulario::content{
+    background: transparent;;
+  }
+  textarea{
+    font-family: 'Open Sans',Arial,sans-serif;
   }

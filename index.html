@@ -26,7 +26,7 @@
                 <a href="#hobbies" class="menu__link ">Hobbies</a>
                 <a href="#formacion" class="menu__link ">Formación</a>
                 <a href="#proyectos" class="menu__link ">Proyectos</a>
-                <a href="#" class="menu__link ">leo.martin178@gmail.com</a>
+                <a href="#contacto" class="menu__link ">leo.martin178@gmail.com</a>
             </nav>
 
         </div>
@@ -199,11 +199,13 @@
             <h2 class="titulo-principal__azul">Experiencia profesional</h2>
 
             <div class="container c__p">
-                <img class="experiencia__imagen" src="./assets/img/experiencia/encriptador.png" alt="Imagen de la pagina enciptador de texto">
+                <img class="experiencia__imagen" src="./assets/img/experiencia/encriptador.png"
+                    alt="Imagen de la pagina enciptador de texto">
 
                 <div class="experiencia__descripcion">
                     <h3 class="experiencia__titulo">Encriptador de texto</h3>
-                    <p class="descripcion__proyecto">Creado con JavaScript, HTML Y CSS (Sólo acepta letras minúsculas y sin acentos)</p>
+                    <p class="descripcion__proyecto">Creado con JavaScript, HTML Y CSS (Sólo acepta letras minúsculas y
+                        sin acentos)</p>
                     <div class="botones">
                         <button class="boton__proyecto">Repositório</button>
                         <button class="boton__proyecto">Ver demo</button>
@@ -214,16 +216,50 @@
             <div class="container c__p">
                 <div class="experiencia__descripcion">
                     <h3 class="experiencia__titulo">Juego del ahorcado</h3>
-                    <p class="descripcion__proyecto">Clasico juego del ahorcado. Creado con JavaScript, JSON, HTML Y CSS</p>
+                    <p class="descripcion__proyecto">Clasico juego del ahorcado. Creado con JavaScript, JSON, HTML Y CSS
+                    </p>
                     <div class="botones">
                         <button class="boton__proyecto">Repositório</button>
                         <button class="boton__proyecto">Ver demo</button>
                     </div>
                 </div>
 
-                <img class="experiencia__imagen" src="./assets/img/experiencia/ahorcado.png" alt="Imagen de la pagina enciptador de texto">
+                <img class="experiencia__imagen" src="./assets/img/experiencia/ahorcado.png"
+                    alt="Imagen de la pagina enciptador de texto">
             </div>
 
+        </section>
+
+        <section id="contacto">
+            <div class="container">
+                <img class="imagen__contacto" src="./assets/img/contacto/correo.png" alt="">
+                <form class="formulario__contacto" action="#">
+                    <h1 class="titulo__formulario">Contacto</h1>
+                    <p class="descripcion__formulario">¿Quieres contactarme?<br>
+                        Llene el siguiente formulario y me pondre en contacto con usted lo antes posible.
+                    </p>
+                    <div class="elemento__formulario">
+                        <label for="nombre">Nombre</label>
+                        <input class="input__formulario" type="text" name="" id="nombre" placeholder="Nombre...">
+                    </div>
+
+                    <div class="elemento__formulario">
+                        <label for="email">E-mail</label>
+                        <input class="input__formulario" type="email" name="" id="email" placeholder="ejemplo@email.com...">
+                    </div>
+
+                    <div class="elemento__formulario">
+                        <label for="asunto">Asunto</label>
+                        <input class="input__formulario" type="text" name="" id="asunto" placeholder="Asunto...">
+                    </div>
+
+                    <div class="elemento__formulario">
+                        <textarea class="input__formulario" name="" id="" rows="10" placeholder="Mensaje..."></textarea>
+                    </div>
+
+                    <button class="boton__proyecto" type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
         </section>
 
     </main>
