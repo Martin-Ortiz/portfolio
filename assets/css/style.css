@@ -29,6 +29,9 @@ a {
     font-weight: bold;
     margin-bottom: 10px;
 }
+.icono__menu{
+    display: none;
+}
 
 .menu {
     display: flex;
@@ -286,12 +289,16 @@ textarea {
 
 .autor__page {
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /*---Tablet---*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
+    .icono__menu{
+        display: none;
+    }
+
     .menu{
         justify-content: right;
         width: 100%;
