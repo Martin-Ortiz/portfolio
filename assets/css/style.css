@@ -1,41 +1,40 @@
-
 /*--Estilos generales--*/
-body{
+body {
     background: var(--color-light-black);
     color: var(--color-white);
-    font-family: 'Open Sans',Arial,sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.5rem;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
 
 /*--- Barra de navegacion en el header ---*/
-.header{
+.header {
     padding-top: 1rem;
 }
 
-.container{
+.container {
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin: 0 7.5%;
-    width: 85%; 
+    width: 85%;
 }
 
-.header__titulo{
+.header__titulo {
     font-size: 2em;
     font-weight: bold;
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-.menu{
+.menu {
     display: flex;
 }
 
-.menu__link{
+.menu__link {
     display: block;
     margin-bottom: 10px;
     padding: 10px;
@@ -43,29 +42,29 @@ a{
 
 /*--- Area de presentacion ---*/
 
-.presentacion{
+.presentacion {
     width: 67%;
 }
 
-.titulo-principal{
+.titulo-principal {
     font-size: 2rem;
     line-height: 2rem;
 }
 
-.parrafo__contenido{
+.parrafo__contenido {
     font-size: 1.2rem;
     padding: 1rem 0;
 }
 
-.presentacion__redes-sociales{
+.presentacion__redes-sociales {
     color: var(--color-dark-blue);
 }
 
-.redes-sociales__link{
+.redes-sociales__link {
     padding-right: 1rem;
 }
 
-.presentacion__imagen{
+.presentacion__imagen {
     display: flex;
     background-image: url(../img/foto.png);
     background-position: center;
@@ -78,33 +77,34 @@ a{
 }
 
 /*--- Area - sobre mi ---*/
-.sobre-mi{
+.sobre-mi {
     background-color: var(--color-light-black2);
     padding: 2rem 0;
 }
 
-.sobre-mi__container{
+.sobre-mi__container {
     display: block;
 }
 
-.sobre-mi__contenido{
+.sobre-mi__contenido {
     width: 67%;
 }
 
 /*--- Area de skills y hobbies ---*/
-.titulo-principal__azul{
+.titulo-principal__azul {
     display: block;
     color: var(--color-dark-blue);
     padding: 3.5rem 0;
     text-align: center;
     font-size: 2.5rem;
 }
-.container__tarjeta{
+
+.container__tarjeta {
     flex-wrap: wrap;
     justify-content: start;
 }
 
-.tarjeta{
+.tarjeta {
     display: block;
     box-shadow: 2px 2px 2px var(--color-light-blue2);
     background-color: var(--color-light-black2);
@@ -112,19 +112,21 @@ a{
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.tarjeta:hover{
+
+.tarjeta:hover {
     opacity: 0.8;
     transform: scale(1.10);
     border: 2px solid var(--color-light-blue2);
 
 }
 
-.tarjeta__imagen{
+.tarjeta__imagen {
     width: 60%;
     padding: 20% 20%;
 
 }
-.tarjeta__titulo{
+
+.tarjeta__titulo {
     margin-left: .5rem;
     margin-bottom: 1rem;
     font-size: 1rem;
@@ -132,64 +134,70 @@ a{
 }
 
 /*---Area de Educacion---*/
-.tarjeta__educacion{
+.tarjeta__educacion {
     width: calc(33.33% - 1.5rem - 2px);
     height: 374px;
     background: var(--color-light-black);
 }
-.contenedor__imagenes{
+
+.contenedor__imagenes {
     width: 100%;
     height: 175px;
     display: flex;
     justify-content: center;
 }
-.contenedor__one{
+
+.contenedor__one {
     width: 100%;
     height: 175px;
 }
-.one__imagen1{
+
+.one__imagen1 {
     width: 80%;
     height: 70px;
     margin: 0 10%;
 }
-.one__imagen2{
+
+.one__imagen2 {
     width: 56%;
     height: 100px;
     margin: 0 22%;
 }
-.imagen__telefonica{
+
+.imagen__telefonica {
     height: 50px;
     margin-top: 35.25px;
 }
 
-.educacion__certificados{
-  margin-left: 1rem; 
-  margin: 1.5rem 1rem;
-  height: 120px;
+.educacion__certificados {
+    margin-left: 1rem;
+    margin: 1.5rem 1rem;
+    height: 120px;
 }
 
 /*---Area Experiencia Profesional---*/
-.c__p{
+.c__p {
     margin-bottom: 2rem;
 }
 
-.experiencia__imagen{
+.experiencia__imagen {
     width: 60%;
 }
 
-.experiencia__descripcion{
+.experiencia__descripcion {
     width: 35%;
 }
-.experiencia__titulo{
+
+.experiencia__titulo {
     font-size: 1.5rem;
     margin: 1rem 0;
 }
 
-.descripcion__proyecto{
+.descripcion__proyecto {
     margin-bottom: 1rem;
 }
 
-.botones{
+.botones {
     width: 100%;
     margin-top: 1rem;
     display: flex;
@@ -208,68 +216,201 @@ a{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-  }
-  
-  .boton__proyecto:hover {
+}
+
+.boton__proyecto:hover {
     background-color: var(--color-green);
     box-shadow: 0px 15px 20px var(--color-darkGreen);
     color: #fff;
     transform: translateY(-7px);
-  }
-  
-  .boton__proyecto:active {
+}
+
+.boton__proyecto:active {
     transform: translateY(-1px);
-  }
+}
 
-  /*---Area de contacto---*/
-  .imagen__contacto{
+/*---Area de contacto---*/
+.imagen__contacto {
     width: 38%;
-  }
+}
 
-  .formulario__contacto{
+.formulario__contacto {
     width: 58%;
-  }
-  .titulo__formulario{
+    padding-bottom: 1rem;
+}
+
+.titulo__formulario {
     font-size: 2rem;
     margin-bottom: 2rem;
-  }
-  .descripcion__formulario{
-    margin-bottom: 1rem;
-  }
+}
 
-  .elemento__formulario{
+.descripcion__formulario {
+    margin-bottom: 1rem;
+}
+
+.elemento__formulario {
     margin-bottom: 1rem;
     width: 100%;
     background-color: var(--color-light-black2);
-  }
+}
 
-  .input__formulario{
+.input__formulario {
     width: 99%;
     background: transparent;
     border: none;
     color: var(--color-white);
     font-size: 1rem;
     border-bottom: 3px solid var(--color-darkGreen);
-  }
-  .input__formulario::placeholder{
+}
+
+.input__formulario::placeholder {
     border: none;
     color: var(--color-white);
     font-size: 1rem;
     background: transparent;
-  }
-  .input__formulario::content{
-    background: transparent;;
-  }
-  textarea{
-    font-family: 'Open Sans',Arial,sans-serif;
-  }
+}
 
-  /*---Footer*/
-  .pie__de-pagina{
+.input__formulario::content {
+    background: transparent;
+    ;
+}
+
+textarea {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/*---Footer*/
+.pie__de-pagina {
     background-color: var(--color-light-black2);
-  }
-  .autor__page{
+}
+
+.autor__page {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
+}
+
+/*---Tablet---*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
+    .menu{
+        justify-content: right;
+        width: 100%;
+    }
+    .header__titulo{
+        display: none;
+    }
+    .sobre-mi__contenido{
+        width: 100%;
+    }
+
+    .tarjeta{
+        width: calc((33.333% - 1.5rem) - 2px);
+    }
+
+    .boton__proyecto{
+        width: 43%;
+    }
+
+    .imagen__contacto{
+        display: none;
+    }
+    .formulario__contacto{
+        width: 100%;
+    }
+}
+
+/*---Mobile---*/
+@media only screen and (max-device-width: 767px) {
+    .mobile{
+        display: block;
+    }
+    .header__titulo{
+        display: none;
+    }
+
+    .icono__menu{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .logo__menu{
+        width: 40px;
+    }
+
+    .menu{
+        display: none;
+    }
+    .menu__oculto{
+        display: none;
+    }
+    .menu__activo{
+        display: block;
+        width: 100%;
+    }
+    .menu__link{
+        width: 100%;
+    }
+    /*--Presentacion--*/
+    .presentacion{
+        width: 100%;
+    }
+    .titulo-principal{
+        font-size: 1.2rem;
+    }
+    .redes-sociales__link{
+        padding-right: .2rem;
+    }
+    .presentacion__imagen{
+        margin: 1rem auto;
+    }
+
+    /*--Sobre mi--*/
+    .sobre-mi{
+        padding: .8rem 0;
+    }
+    .sobre-mi__contenido{
+        width: 100%;
+    }
+    .titulo-principal__azul{
+        font-size: 2rem;
+        padding: 1.5rem 0;
+    }
+    .container__tarjeta{
+        justify-content: space-between;
+    }
+    .tarjeta{
+        width: 47%;
+        margin-right: 0;
+    }
+    .tarjeta__educacion{
+        width: 100%;
+        margin-right: 0;
+    }
+    .boton__proyecto{
+        width: 43%;
+    }
+    
+    /*---proyectos---*/
+    .c__p{
+        display: grid;
+    }
+    
+    .experiencia__imagen{
+        width: 100%;
+        
+    }
+    .experiencia__descripcion{
+        width: 100%;
+        margin: 1rem 0;
+        order: 1;
+    }
+
+    /*---contacto---*/
+    .imagen__contacto{
+        display: none;
+    }
+    .formulario__contacto{
+        width: 100%;
+    }
+}
