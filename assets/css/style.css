@@ -263,3 +263,13 @@ a{
   textarea{
     font-family: 'Open Sans',Arial,sans-serif;
   }
+
+  /*---Footer*/
+  .pie__de-pagina{
+    background-color: var(--color-light-black2);
+  }
+  .autor__page{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
