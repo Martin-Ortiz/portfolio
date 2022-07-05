@@ -29,7 +29,8 @@ a {
     font-weight: bold;
     margin-bottom: 10px;
 }
-.icono__menu{
+
+.icono__menu {
     display: none;
 }
 
@@ -41,6 +42,13 @@ a {
     display: block;
     margin-bottom: 10px;
     padding: 10px;
+}
+
+.menu__link:hover {
+    background-color: var(--color-green);
+    box-shadow: 0px 15px 20px var(--color-darkGreen);
+    color: #fff;
+    transform: translateY(-7px);
 }
 
 /*--- Area de presentacion ---*/
@@ -76,6 +84,7 @@ a {
     width: 230px;
     height: 230px;
     margin: 0 auto;
+    background-repeat: no-repeat;
 
 }
 
@@ -295,129 +304,149 @@ textarea {
 
 /*---Tablet---*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
-    .icono__menu{
+    .icono__menu {
         display: none;
     }
 
-    .menu{
+    .menu {
         justify-content: right;
         width: 100%;
     }
-    .header__titulo{
+
+    .header__titulo {
         display: none;
     }
-    .sobre-mi__contenido{
+
+    .sobre-mi__contenido {
         width: 100%;
     }
 
-    .tarjeta{
+    .tarjeta {
         width: calc((33.333% - 1.5rem) - 2px);
     }
 
-    .boton__proyecto{
+    .boton__proyecto {
         width: 43%;
     }
 
-    .imagen__contacto{
+    .imagen__contacto {
         display: none;
     }
-    .formulario__contacto{
+
+    .formulario__contacto {
         width: 100%;
     }
 }
 
 /*---Mobile---*/
 @media only screen and (max-device-width: 767px) {
-    .mobile{
+    .mobile {
         display: block;
     }
-    .header__titulo{
+
+    .header__titulo {
         display: none;
     }
 
-    .icono__menu{
+    .icono__menu {
         width: 100%;
         display: flex;
         justify-content: end;
     }
 
-    .logo__menu{
+    .logo__menu {
         width: 40px;
     }
 
-    .menu{
+    .menu {
         display: none;
     }
-    .menu__oculto{
-        display: none;
-    }
-    .menu__activo{
+
+    .menu__activo {
         display: block;
-        width: 100%;
+        width: 90%;
+        border-radius: 15px;
+        border-top-right-radius: 0;
+        padding: 1rem;
+        border: 2px solid var(--color-light-blue2);
     }
-    .menu__link{
+
+    .menu__link {
         width: 100%;
+        padding: 2px;
     }
+
     /*--Presentacion--*/
-    .presentacion{
+    .presentacion {
         width: 100%;
     }
-    .titulo-principal{
+
+    .titulo-principal {
         font-size: 1.2rem;
     }
-    .redes-sociales__link{
-        padding-right: .2rem;
+
+    .redes-sociales__link {
+        padding-right: .1rem;
     }
-    .presentacion__imagen{
+
+    .presentacion__imagen {
         margin: 1rem auto;
     }
 
     /*--Sobre mi--*/
-    .sobre-mi{
+    .sobre-mi {
         padding: .8rem 0;
     }
-    .sobre-mi__contenido{
+
+    .sobre-mi__contenido {
         width: 100%;
     }
-    .titulo-principal__azul{
+
+    .titulo-principal__azul {
         font-size: 2rem;
         padding: 1.5rem 0;
     }
-    .container__tarjeta{
+
+    .container__tarjeta {
         justify-content: space-between;
     }
-    .tarjeta{
+
+    .tarjeta {
         width: 47%;
         margin-right: 0;
     }
-    .tarjeta__educacion{
+
+    .tarjeta__educacion {
         width: 100%;
         margin-right: 0;
     }
-    .boton__proyecto{
+
+    .boton__proyecto {
         width: 43%;
     }
-    
+
     /*---proyectos---*/
-    .c__p{
+    .c__p {
         display: grid;
     }
-    
-    .experiencia__imagen{
+
+    .experiencia__imagen {
         width: 100%;
-        
+
     }
-    .experiencia__descripcion{
+
+    .experiencia__descripcion {
         width: 100%;
         margin: 1rem 0;
         order: 1;
     }
 
     /*---contacto---*/
-    .imagen__contacto{
+    .imagen__contacto {
         display: none;
     }
-    .formulario__contacto{
+
+    .formulario__contacto {
         width: 100%;
     }
 }
