@@ -236,31 +236,33 @@
         <section id="contacto">
             <div class="container">
                 <img class="imagen__contacto" src="./assets/img/contacto/correo.png" alt="">
-                <form class="formulario__contacto" action="#">
+                
+                <form class="formulario__contacto" action="mailto:martin178@gmail.com">
                     <h1 class="titulo__formulario">Contacto</h1>
                     <p class="descripcion__formulario">¿Quieres contactarme?<br>
                         Llene el siguiente formulario y me pondre en contacto con usted lo antes posible.
                     </p>
                     <div class="elemento__formulario">
-                        <label for="nombre">Nombre</label>
+                        <label for="nombre">Nombre <span id="mensajeNombre" class="error"></span></label>
                         <input class="input__formulario" type="text" name="" id="nombre" placeholder="Nombre...">
                     </div>
 
                     <div class="elemento__formulario">
-                        <label for="email">E-mail</label>
+                        <label for="email">E-mail <span id="mensajeEmail" class="error"></span></label>
                         <input class="input__formulario" type="email" name="" id="email" placeholder="ejemplo@email.com...">
                     </div>
 
                     <div class="elemento__formulario">
-                        <label for="asunto">Asunto</label>
+                        <label for="asunto">Asunto <span id="mensajeAsunto" class="error"></span></label>
                         <input class="input__formulario" type="text" name="" id="asunto" placeholder="Asunto...">
                     </div>
 
                     <div class="elemento__formulario">
-                        <textarea class="input__formulario" name="" id="" rows="10" placeholder="Mensaje..."></textarea>
+                        <span id="mensajeAEnviar" class="error"></span>
+                        <textarea class="input__formulario"  id="mensaje" rows="10" placeholder="Mensaje..."></textarea>
                     </div>
 
-                    <button class="boton__proyecto" type="submit">Enviar Mensaje</button>
+                    <button id="enviarMensaje" class="boton__proyecto" type="submit">Enviar Mensaje</button>
                 </form>
             </div>
         </section>
