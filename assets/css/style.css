@@ -101,6 +101,9 @@ a {
 .sobre-mi__contenido {
     width: 67%;
 }
+.img__sobre-mi{
+    width: 40px;
+}
 
 /*--- Area de skills y hobbies ---*/
 .titulo-principal__azul {
@@ -391,14 +394,12 @@ textarea {
         font-size: 1.2rem;
     }
 
-    .redes-sociales__link {
-        padding-right: .1rem;
-    }
-
     .presentacion__imagen {
         margin: 1rem auto;
     }
-
+    .img__sobre-mi{
+        width: 30px;
+    }
     /*--Sobre mi--*/
     .sobre-mi {
         padding: .8rem 0;
@@ -430,7 +431,7 @@ textarea {
     .boton__proyecto {
         width: 43%;
     }
-
+   
     /*---proyectos---*/
     .c__p {
         display: grid;
